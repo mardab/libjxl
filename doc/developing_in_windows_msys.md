@@ -116,15 +116,15 @@ To use the `clang` compiler, install the packages that correspond with the envir
 ```
 mingw-w64-i686-clang
 mingw-w64-i686-clang-tools-extra
-mingw-w64-i686-clang-compiler-rt
+mingw-w64-i686-compiler-rt
 
 mingw-w64-x86_64-clang
 mingw-w64-x86_64-clang-tools-extra
-mingw-w64-x86_64-clang-compiler-rt
+mingw-w64-x86_64-compiler-rt
 
 mingw-w64-ucrt64-x86_64-clang
 mingw-w64-ucrt64-x86_64-clang-tools-extra
-mingw-w64-ucrt64-x86_64-clang-compiler-rt
+mingw-w64-ucrt64-x86_64-compiler-rt
 ```
 
 After the `clang` compiler is installed, 'libjxl' can be built with the `./ci.sh` script.
